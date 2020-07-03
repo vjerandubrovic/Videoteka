@@ -1,0 +1,166 @@
+/**** OPĆE POSTAVKE ****/
+
+*
+{box-sizing:border-box;
+margin:0}
+
+body,#submit,#reset
+{background-color:#b5aeae;
+color:#fff;
+font-family:'trebuchet MS',sans-serif;
+font-size:20px}
+
+a,#submit,#reset
+{text-decoration:none;
+color:#fff}
+
+.wrapper
+{max-width:1200px;
+margin:1em auto}
+
+.clearfix:after
+{content:" ";
+display:block;
+clear:both}
+
+
+/**** NAVIGACIJA ****/
+
+#mobile_button
+{display:none}
+
+#menu
+{background-color:#000;
+border:7px groove #fff;}
+
+#menu ul
+{width:100%;
+list-style-type:none;
+padding:0}
+
+#menu li
+{display:inline-block;
+font-size:20px;
+margin-left:5%}
+
+#menu a
+{padding:2px;
+display:inline-block}
+
+
+/**** page Home  ****/
+
+.welcome
+{margin-bottom:20px;}
+
+.titlep1
+{margin:20px auto;}
+
+.znakovi
+{border-bottom:3px solid #fff;
+border-left:1px solid #000 ;
+border-right:1px solid #000 ;
+padding:0 0.5%;
+margin:0 0.5%;
+font-size:25px;
+float:left;
+text-align:center;}
+
+
+/**** page Add movie  ****/
+
+/* Forma */
+
+#title
+{margin:0 0 40px 45%;}
+
+#form
+{width:30%;
+margin:0 33%;}
+
+.parts
+{border:0px groove #000;
+height:50px;}
+
+.label
+{margin:10px auto 0 5% ;
+float:left;
+width:20%;}
+
+.input
+{float:left;
+margin:10px auto 0 5%;
+width:50%;}
+
+.input input,.input select
+{height:25px;
+border-radius:10px;
+padding:0 0 0 5px;}
+
+.submit,.reset
+{float:left;
+margin:20px auto 0 5%;}
+
+.submit input,.reset input
+{height:30px;
+border-radius:10px;}
+
+/* Tablica */
+
+#title2
+{margin:50px 0;}
+
+.table h4, .table img, .table h5, .table p, .table div
+{float:left;
+width:20%;
+border:1px solid #000;
+text-align:center;
+height:30px;}
+
+.table img, .table h5, .table p, .table div
+{height:250px;}
+
+.table h5, .table p, .table div
+{padding:100px 0;
+font-size:30px;}
+
+.delete
+{border-radius:10px;
+height:30px;
+font-size:20px;}
+
+/* Tablica 2 */
+
+.table1 h4, .table1 img, .table1 h5, .table1 p
+{float:left;
+width:25%;
+border:1px solid #000;
+text-align:center;
+height:30px;}
+
+.table1 img, .table1 h5, .table1 p
+{height:250px;}
+
+.table1 h5, .table1 p
+{padding:100px 0;
+font-size:30px;}
+
+
+/**** FOOTER ****/
+
+#page_footer
+{height:120px;background-color:#000; 
+border:7px groove #fff;}
+
+#page_footer.wrapper
+{margin:0 auto}
+
+#page_footer p
+{padding:20px 0 0 20px;float:left}
+
+#page_footer h4
+{padding:20px 20px 0 20px;float:right}
+
+
+
+

@@ -1,0 +1,3 @@
+Name: Admin
+E-mail:admin@admin.com
+Password:12345678
